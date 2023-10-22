@@ -3,7 +3,7 @@
 #  sudo systemctl stop gpsd.socket
 #  sudo systemctl disable gpsd.socket
 #  sudo gpsd /dev/ttyACM0 -F /var/run/gpsd.sock  # replace ttyACM0 with the device name of your GPS device. 
-#  Test with: sudo cgps -S
+#  Test with: sudo cgps -s
 
 # This code was apapted from Martin O'Hanlon's code found here: https://www.stuffaboutcode.com/2013/09/raspberry-pi-gps-setup-and-python.html
 # See also https://learn.adafruit.com/adafruit-ultimate-gps-hat-for-raspberry-pi/use-gpsd
